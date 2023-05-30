@@ -1,0 +1,52 @@
+#body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.425);
+}
+
+#name {
+    width: 150px;
+    display: inline;
+    margin-right: 20px;
+}
+
+#age {
+    width: 50px;
+    display: inline;
+}
+
+#email {
+    width: 270px;
+    display: inline;
+    margin-right: 15px;
+}
+
+#select {
+    width: 470px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <style>
+        body {
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input type="text" name="country" id="country" placeholder="Digite um país">
+    <input type="button" value="Validar" id="validar">
+    <div id="living"></div>
+    <div id="nationality"></div>
+
+    <script>
+        var butt = document.querySelector('#validar').addEventListener("click", validarNacionalidade)
+        var pais = "Brasil"
+        document.querySelector('#living').innerHTML = `vivendo no ${pais}`
+
+        function validarNacionalidade() {
+            var country = document.querySelector('#country')
+            var nacionalidade = document.querySelector('#nationality')
+
+            if (country.value == pais) {
+                nacionalidade.innerHTML = 'Você é Brasileiro :D'
+            } else {
+                nacionalidade.innerHTML = 'Você é estrangeiro D:'
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

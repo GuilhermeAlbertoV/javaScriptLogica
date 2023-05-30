@@ -1,0 +1,111 @@
+/* Configurações gerais*/
+#body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+#section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.425);
+}
+
+#descontosSemanais {
+    position: relative;
+    bottom: 450px;
+}
+
+input[type=number] {
+    width: 250px;
+    display: inline;
+}
+
+h2 {
+    text-align: center;
+}
+
+#dia {
+    display: inline;
+}
+
+hr {
+    width: 300px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.list {
+    width: 300px;
+    height: 300px;
+}
+
+#btn {
+    position: relative;
+    left: 400px;
+    bottom: 250px;
+}
+
+/* Configurações gerais*/
+
+/* Configurações da div buy*/
+#buy {
+    position: relative;
+    bottom: 280px;
+    left: 400px;
+    width: 400px;
+    height: 200px;
+}
+
+
+#nome {
+    width: 200px;
+    display: inline;
+}
+
+#qtd {
+    width: 150px;
+    display: inline;
+}
+
+.tituloDivBuy {
+    text-align: center;
+}
+
+#form {
+    width: 360px;
+    height: 100px;
+}
+
+/* Configurações da div carrinho */
+
+#carrinho {
+    position: relative;
+    bottom: 260px;
+    left: 400px;
+    height: 200px;
+    width: 360px;
+    border: gray 2px double;
+}
+
+.tituloCarrinho {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    color: rgb(0, 153, 255);
+}
+
+/* Configurações da div carrinho */

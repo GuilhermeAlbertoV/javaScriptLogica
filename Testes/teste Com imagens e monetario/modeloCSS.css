@@ -1,0 +1,75 @@
+body {
+    font: normal Arial 20pt;
+    background-color: rgb(85, 167, 238);
+}
+
+header {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type=number] {
+    width: 150px;
+    display: inline;
+    margin-left: 50px;
+
+}
+
+
+
+#instrucao {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: rgb(0, 132, 255);
+}
+
+#operation {
+    position: relative;
+    top: 70px;
+    height: 50px;
+    width: 50px;
+    right: 210px;
+}
+
+#adc {
+    position: relative;
+    top: 100px;
+}
+
+#minus {
+    position: relative;
+    top: 100px;
+}
+
+#di {
+    position: relative;
+    top: 100px;
+}
+
+#mul {
+    position: relative;
+    top: 100px;
+}
+
+#resultado {
+    margin-top: 150px;
+    color: rgb(0, 132, 255);
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}

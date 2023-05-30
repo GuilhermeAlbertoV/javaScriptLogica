@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+            color: white;
+            font: normal 20pt arial;
+        }
+
+        h1 {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        let nome = window.prompt('Qual é seu Nome')
+        document.querySelector('h1').innerHTML = `Olá, ${nome}`
+
+        if (nome.length < 5) {
+            window.alert(`Seu nome é pequeno demais insira um maior`)
+            document.querySelector('p').innerHTML = `Nome inserido com menos de 5 caracteres ${nome}`
+        }
+        window.alert(`Prazer em te conhecer ${nome}`)
+
+
+        switch (nome) {
+            case 'Guilherme':
+                document.querySelector('p').innerHTML = `Bem vindo de volta ${nome}`
+                break;
+            case 'amogus':
+                document.querySelector('p').innerHTML = `${nome} você é muito Sus O-O`
+                break;
+            case 'among us':
+                document.querySelector('p').innerHTML = `${nome} você é muito Sus O-O`
+            default:
+                break;
+        }
+    </script>
+</body>
+
+</html>

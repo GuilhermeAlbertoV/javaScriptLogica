@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: rgb(68, 177, 228);
+
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    margin-top: 10px;
+}
+
+section {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+input[type='number'] {
+    margin-top: 20px;
+    display: inline;
+    height: auto;
+    width: auto;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}

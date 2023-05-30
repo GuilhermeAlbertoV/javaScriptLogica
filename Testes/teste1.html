@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var agora = new Date()
+        var change = agora.getHours()
+        var corpo = document.body
+
+
+        if (change < 12) {
+            corpo.style.backgroundColor = 'yellow'
+        } else if (change < 18) {
+            corpo.style.backgroundColor = 'blue'
+        } else {
+            corpo.style.backgroundColor = 'black'
+        }
+    </script>
+</body>
+
+</html>

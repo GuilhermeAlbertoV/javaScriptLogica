@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+            color: white;
+            font: normal 20pt arial;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> </h1> <br>
+    <span> </span> <br>
+    <p> </p>
+    <div class="media"></div>
+    <div class="diferenca"></div>
+
+    <script>
+        var nomeP = prompt('Digite um nome')
+        var nomeS = prompt('Digite outro nome')
+
+        var salPP = Number(prompt(`Qual é o seu sálario ${nomeP}`))
+        var salPS = Number(prompt(`Qual é o seu sálario ${nomeS}`))
+        var soma = salPP + salPS
+        var media = (salPP + salPS) / 2
+        var diferenca = Math.abs(salPP - salPS)
+
+        var dif = document.querySelector('.diferenca').innerHTML = `a diferença entre o salario do ${nomeP} e do ${nomeS} é de ${diferenca.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+
+
+
+
+        var span = document.querySelector('span').innerHTML = `o sálario de ${nomeP} é de ${salPP.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+        var p = document.querySelector('p').innerHTML = `o sálario de ${nomeS} é de ${salPS.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+        var h1 = document.querySelector('h1').innerHTML = `o sálario de ${nomeP} e ${nomeS} é de ${soma.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+        var divMedia = document.querySelector('.media').innerHTML = `O sálario médio de ambos é de ${media.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

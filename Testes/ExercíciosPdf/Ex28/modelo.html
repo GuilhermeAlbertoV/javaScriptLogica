@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body id="body">
+    <header>
+        <h1>Fazendo compras</h1>
+    </header>
+    <section class="form-control" id="section">
+        <h2>Hoje é <div id="dia"></div>
+        </h2>
+
+        <div class="list">Lista de produtos no estoque
+            <hr>
+
+            <p> Ovo | Preço: 5,00R$ </p>
+            <hr>
+            <p> Leite | Preço: 6,50R$ </p>
+            <hr>
+            <p> Carne | Preço: 10,00R$ </p>
+            <hr>
+            <p> Nescau | Preço: 8,50R$ </p>
+            <hr>
+        </div>
+        <br>
+
+        <div id="buy">
+
+            <p class="tituloDivBuy">Compras</p>
+            <div id="form">
+
+                <p>lista de produtos:
+                    <select name="select" id="select">
+                        <option value="0">Ovo</option>
+                        <option value="1">Leite</option>
+                        <option value="2">Carne</option>
+                        <option value="3">Nescau</option>
+                    </select>
+                </p>
+                <p>Quantidade Produto:
+                    <input type="text" name="nome" id="qtd" class="form-control" placeholder="Qtde Produtos:">
+                </p>
+
+                <button class="btn btn-primary" onclick="enviar()">Enviar para o carrinho
+                    <i class="bi bi-basket2-fill"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="carrinho" class="">
+            <p class="tituloCarrinho">Suas Compras</p>
+
+
+
+        </div>
+
+
+        <div id="descontosSemanais">
+            <p>Descontos Semanais</p>
+            <p> Domingo tem 0% de desconto</p>
+            <p> Segunda-Feira tem 10% de desconto</p>
+            <p> Terça-Feira tem 20% de desconto</p>
+            <p> Quarta-Feira tem 25% de desconto</p>
+            <p> Quinta-Feira tem 30% de desconto</p>
+            <p> Sexta-Feira tem 45% de desconto</p>
+            <p> Sábado tem 35% de desconto</p>
+        </div>
+
+    </section>
+    <footer>
+        &copy; CursoEmVideo
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

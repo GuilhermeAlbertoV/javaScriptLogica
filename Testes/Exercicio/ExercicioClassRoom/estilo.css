@@ -1,0 +1,46 @@
+#body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.425);
+}
+
+#nome {
+    width: 450px;
+    margin-bottom: 15px;
+}
+
+#nota {
+    width: 100px;
+    margin-right: 15px;
+}
+
+#select {
+    width: 290px;
+    position: relative;
+    left: 150px;
+    bottom: 38px;
+}
+
+td {
+    width: 50px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

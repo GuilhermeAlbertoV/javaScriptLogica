@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(238, 60, 60);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+section {
+    border-radius: 15px;
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+
+input[type=text] {
+    height: 10px;
+    width: 460px;
+    margin-left: 20px;
+}
+
+label {
+    font-size: 15px;
+    margin-left: 20px;
+    font-family: Arial
+}
+
+button {
+    margin-top: 20px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com calculadora</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="calculadoraStyle.css">
+</head>
+
+<body>
+
+    <h1>Teste de Calculadora</h1>
+
+    <section>
+
+        <input type="number" name="inp" id="dados1" class="form-control" placeholder="Digite o Primeiro número">
+        <input type="number" name="inp" id="dados2" class="form-control" placeholder="Digite o Segundo número">
+        <p>Selecione uma das operações abaixo <br>
+            <input type="radio" name="operation" id="adc" checked>
+            <label for="adc">Adição</label>
+            <input type="radio" name="operation" id="sub">
+            <label for="sub">Subtração</label>
+            <input type="radio" name="operation" id="mul">
+            <label for="mul">Multiplicação</label>
+            <input type="radio" name="operation" id="di">
+            <label for="di">Divisão</label>
+        </p>
+        <button class="btn btn-primary" onclick="calcular()">Calcular
+            <i class="bi bi-plus-slash-minus"></i>
+        </button>
+
+        <div id="show"></div>
+    </section>
+
+    <script src="calculadoraScript.js"></script>
+</body>
+
+</html>
