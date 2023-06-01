@@ -1,0 +1,78 @@
+#body {
+  background-color: rgb(70, 142, 236);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.425);
+}
+
+input[type="number"] {
+  width: 250px;
+  display: inline;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+button {
+  position: relative;
+  top: 20px;
+  left: 350px;
+}
+
+#linha {
+  background-color: black;
+  width: 470px;
+  margin: auto;
+  height: 2px;
+  position: relative;
+  top: 35px;
+}
+#quad1 {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background-color: red;
+  margin-right: 125px;
+  margin-left: 10px;
+}
+
+#quad2 {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background-color: red;
+  margin-right: 125px;
+  background-color: transparent;
+}
+#quad3 {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background-color: red;
+  margin-right: 125px;
+  background-color: transparent;
+}
+#quad4 {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background-color: red;
+  margin-right: 75%px;
+  background-color: transparent;
+}
